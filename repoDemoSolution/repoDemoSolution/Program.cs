@@ -10,6 +10,8 @@ namespace repoDemoSolution
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("my computer is talking wtf");
+            Console.Read();
         }
     }
 }
