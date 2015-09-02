@@ -13,5 +13,17 @@ namespace repoDemoSolution
             Console.WriteLine("my computer is talking wtf");
             Console.Read();
         }
+
+        /// <summary>
+        /// 
+        /// takes an int as an argument, returns that int times two
+        /// 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        static int double_x(int x)
+        {
+            return x * 2;
+        }
     }
 }
