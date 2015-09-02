@@ -25,5 +25,13 @@ namespace repoDemoSolution
         {
             return x * 2;
         }
+
+        /// <summary>
+        /// this method is exclusive to the test branch
+        /// </summary>
+        static void exclusive()
+        {
+            return;
+        }
     }
 }
